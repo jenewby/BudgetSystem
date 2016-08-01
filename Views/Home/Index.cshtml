@@ -1,0 +1,69 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+    Layout = "~/Views/Shared/_LayoutGenBG1.cshtml";
+}
+@*<style>
+    .coins {
+        background-image: url('../../images/coins-912720_1280.jpg')
+    }
+
+</style>*@
+<body>
+
+    <div class="container">
+        <div class="row" style="padding-top: 40px;">
+            <div class="col-sm-12">
+                <h1 style="color:#EDEDED; text-align:center; font-family:'Times New Roman'; font-size: 80px;">The Penny Pincher</h1>
+                <h3 style="color:#EDEDED;  text-align:center; font-family:'Times New Roman';text-shadow: 2px 2px 8px #5A738E;">Fully Functional Budgeting System</h3>
+            </div>
+        </div>
+        <div class="row" style="padding-top: 5%;">
+
+            <div class="col-sm-6">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <h2 style="color:#EDEDED; text-shadow: 2px 2px 8px #5A738E;">Register</h2>
+                        <p style="color:#EDEDED; text-shadow: 2px 2px 8px #5A738E;">Open an account with us</p>
+                    </div>
+                    <div class="col-sm-12">
+                        <a href="@Url.Action("Register", "Account")" style="margin-top:20px; background-color: #5A738E; border-color:#EDEDED" class="btn btn-primary btn-lg btn-block"> Register</a>
+                    </div>
+                  </div>
+                </div>
+              <div class="col-sm-6">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <h2 style="color:#EDEDED; text-shadow: 2px 2px 8px #5A738E;">Login</h2>
+                                <p style="color:#EDEDED; text-shadow: 2px 2px 8px #5A738E;">Access your dashboard</p>
+                            </div>
+                            <div class="col-sm-12">
+                                <a href="@Url.Action("Login","Account")" style="margin-top:20px; background-color: #5A738E; border-color:#EDEDED" class="btn btn-primary btn-lg btn-block"> Login</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+            </div>
+</body>
+@*<div class="row">
+    <div class="col-md-4">
+        <h2>Register</h2>
+        <p>Open an account with us</p><a href="a" style="margin-top:20px" class="btn btn-primary btn-lg btn-block">Register</a></p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <a href="a" style="margin-top:20px" class="btn btn-primary btn-lg btn-block"><span class="glyphicon glyphicon-circle-arrow-down"> Withdrawal</span></a>
+        <a href="a" style="margin-top:20px" class="btn btn-primary btn-lg btn-block"><span class="glyphicon glyphicon-flash"> Quick Cash</span></a>
+        <a href="@Url.Action("Details", "CheckingAccount")" style="margin-top:20px" class="btn btn-primary btn-lg btn-block"><span class="glyphicon glyphicon-question-sign"> Balance Inquiry</span></a>
+
+    </div>
+    <div class="col-md-6">
+        <a href="a" style="margin-top:20px" class="btn btn-primary btn-lg btn-block"><span class="glyphicon glyphicon-print"> Print Statement</span></a>
+        <a href="a" style="margin-top:20px" class="btn btn-primary btn-lg btn-block"><span class="glyphicon glyphicon-transfer"> Transfer</span></a>
+        <a href="@Url.Action("Deposit", "Transaction", new {checkingAccountId = ViewBag.CheckingAccountId} );" style="margin-top:20px" class="btn btn-primary btn-lg btn-block"> <span class="glyphicon glyphicon-circle-arrow-up"> Deposit</span></a>
+
+    </div>
+</div>*@
+
